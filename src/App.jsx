@@ -5,7 +5,7 @@ import Name from "./components/Name";
 const App = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center h-screen  gap-11">
+      <div className="bg-gray-100 flex flex-col justify-center items-center h-screen  gap-11">
         <Name />
         <Link to="aboutme">
           <ClickMe />
